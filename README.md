@@ -57,7 +57,7 @@ HFTransformersT5Translation_jp-en-ru
 │  ├ load.py           # Model & tokenizer loading
 │  ├ preprocessing.py  # Data split (9:0.5:0.5)
 │  ├ train.py          # Training pipeline
-│  ├ test.py           # Evaluation (BLEU, RIBES)
+│  ├ t5_test.py           # Evaluation (BLEU, RIBES)
 │  ├ translate.py      # Inference script
 │  └ metrics.py        # Metric implementation
 └ translation_corpus   # Hosted on Hugging Face Hub
@@ -100,7 +100,7 @@ python src/train.py
 <h3>3️⃣ Evaluate</h3>
 
 <pre>
-python src/test.py
+python src/t5_test.py
 </pre>
 
 <h3>4️⃣ Translate interactively</h3>
