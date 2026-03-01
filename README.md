@@ -159,5 +159,5 @@ It demonstrates:
 
 <p>
 Shota Tokunaga  
-Graduate Student | NLP / Machine Learning
+Completed Master's program | NLP / Machine Learning
 </p>
