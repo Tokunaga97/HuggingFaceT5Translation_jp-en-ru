@@ -1,4 +1,3 @@
-# HuggingFaceT5Translation_jp-en-ru
 <h1 align="center">Multilingual Machine Translation with T5</h1>
 
 <p align="center">
