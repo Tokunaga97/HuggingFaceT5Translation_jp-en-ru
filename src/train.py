@@ -8,7 +8,7 @@ from preprocessing import SeparateData
 from dataset import CreateDataCollator
 from load import LoadTokenizer_and_Model
 from metrics import ComputeMetrics
-from test import Test
+from t5_test import Test
 import torch.multiprocessing as mp
 import warnings
 warnings.filterwarnings('ignore')
