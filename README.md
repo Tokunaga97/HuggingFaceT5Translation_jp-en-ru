@@ -7,7 +7,7 @@ Built with Hugging Face Transformers (T5)
 
 <hr>
 
-<h2>🚀 Project Overview</h2>
+<h2>Project Overview</h2>
 
 <p>
 This project implements a multilingual neural machine translation system
@@ -31,7 +31,7 @@ is implemented in a modular and reproducible manner.
 
 <hr>
 
-<h2>🧠 Technical Highlights</h2>
+<h2>Technical Highlights</h2>
 
 <ul>
 <li>Transformer-based sequence-to-sequence architecture (T5)</li>
@@ -44,7 +44,7 @@ is implemented in a modular and reproducible manner.
 
 <hr>
 
-<h2>📁 Project Structure</h2>
+<h2>Project Structure</h2>
 
 <pre>
 HFTransformersT5Translation_jp-en-ru
@@ -64,7 +64,7 @@ HFTransformersT5Translation_jp-en-ru
 
 <hr>
 
-<h2>📦 Dataset</h2>
+<h2>Dataset</h2>
 
 <p>
 Due to file size limitations, the corpus is hosted on Hugging Face Hub:
@@ -82,27 +82,27 @@ Each language pair contains up to 500,000 aligned sentence pairs.
 
 <hr>
 
-<h2>⚙️ How to Run</h2>
+<h2>How to Run</h2>
 
-<h3>1️⃣ Install dependencies</h3>
+<h3>Install dependencies</h3>
 
 <pre>
 pip install -r requirements.txt
 </pre>
 
-<h3>2️⃣ Train</h3>
+<h3>Train</h3>
 
 <pre>
 python src/train.py
 </pre>
 
-<h3>3️⃣ Evaluate</h3>
+<h3>Evaluate</h3>
 
 <pre>
 python src/t5_test.py
 </pre>
 
-<h3>4️⃣ Translate interactively</h3>
+<h3>Translate interactively</h3>
 
 <pre>
 python src/translate.py
@@ -110,7 +110,7 @@ python src/translate.py
 
 <hr>
 
-<h2>📊 Evaluation Metrics</h2>
+<h2>Evaluation Metrics</h2>
 
 <ul>
 <li><strong>BLEU</strong> – N-gram precision-based metric</li>
@@ -123,7 +123,7 @@ Both metrics are computed at corpus level.
 
 <hr>
 
-<h2>🛠 Design Philosophy</h2>
+<h2>Design Philosophy</h2>
 
 <ul>
 <li>Readable and modular source structure</li>
@@ -134,7 +134,7 @@ Both metrics are computed at corpus level.
 
 <hr>
 
-<h2>🎯 Purpose of This Project</h2>
+<h2>Purpose of This Project</h2>
 
 <p>
 This project was developed as a self-directed implementation to deepen
@@ -154,7 +154,7 @@ It demonstrates:
 
 <hr>
 
-<h2>👤 Author</h2>
+<h2>Author</h2>
 
 <p>
 Shota Tokunaga  
